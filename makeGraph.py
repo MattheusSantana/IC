@@ -178,7 +178,7 @@ def makeTreesPPI(Kgraph):
 		for j in range(len(i)+1):
 			vertex = Vertex()
 			vertex.id = j
-			vertex.color = j
+			vertex.color = j+1
 			vertex.label = Kgraph.vList[j].label
 			tree.vList.append(vertex)
 		for e in i:

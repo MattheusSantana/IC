@@ -97,6 +97,27 @@ def main():
 								total+=1
 								break
 						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")
+				if sys.argv[1] == '-C':
+					graph.initializeColorTable()
+					if '-v' in args:
+						for m in motifs:
+							qtd = countOcurrences(graph, m)
+							if qtd > 0:
+								total+=1
+								print("Searching:",file,"|"," The motif has been found!", "|", "Motif size:",len(m.vList), "Total ocurrences: ",qtd)
+								break
+						if qtd == 0:
+							print("Searching:",file,"|"," No topology was found!")
+					else:
+						for m in motifs:
+							qtd = countOcurrences(graph, m)
+							if qtd > 0:
+								total+=1
+								break
+						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")	
+									
+
+										
 					
 	print("\nTotal founds", total)					
 main()				
