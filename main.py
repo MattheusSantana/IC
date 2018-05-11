@@ -86,6 +86,7 @@ def main():
 							result =  TCG(graph, m)
 							if result == 1:
 								print("Searching:",file,"|"," The motif has been found!")
+								total+=1
 								break
 						if result != 1:
 							print("Searching:",file,"|"," No topology was found!")
@@ -97,6 +98,6 @@ def main():
 								break
 						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")
 					
-
+	print("\nTotal founds", total)					
 main()				
 							
