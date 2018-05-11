@@ -21,5 +21,5 @@ def seq(n, k):
    while proxSeq(l, n) == 1: 
       conte += 1
       array.append(l.copy())
-   print(conte)     
+   #print(conte)     
    return array

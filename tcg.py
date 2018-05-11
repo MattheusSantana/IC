@@ -4,48 +4,76 @@ from graph import *
 
 #search for an instance of the motif in the graph
 def TCG(graph, motif):
-		motif.dfs()
-		for i in range(len(motif.topologicalSort)):
-			v = motif.topologicalSort[i]
-			A = []
-			w = None
-			for a in graph.vList:
-				if a.status == V_ENABLE and a.color == v.color.color:
-					A.append(a)
-			
+	'''if len(motif.vList) ==1:
+		#If the motif has one vertex only, his color is 1.
+		
+		for v in graph.vList:
+			if v.color == 1:
+				return 1
+		return 0		
+	
+	
+	if len(motif.vList) ==2:
+		v = motif.vList[0]
+		w = motif.vList[1]
+		for vertice in graph.vList:
+			if vertice.color == v.color:
+				for neighbor in vertice.neighbors:
+					if neighbor.color == w.color:
+						#print("The motif occurs in the graph")
+						return 1
+		#print("No occurrences")
+		return 0				
+	'''
+	motif.dfs()
+	for i in range(len(motif.topologicalSort)):
+		v = motif.topologicalSort[i]
+		A = []
+		w = None
+		for a in graph.vList:
+			if a.status == V_ENABLE and a.color == v.color:
+				A.append(a)
+
+		#Do not enter if motif has len = 1.		
+		if len(v.neighbors) != 0 :
 			w = v.neighbors[0]
 
-			#selecting neighbor that has a level greater than vertex v to maintain the order of dfs.
-			for neighbor in v.neighbors:
-				if(neighbor.level > v.level):	
-					w = neighbor
-					break
-			
-
-			if(i == len(motif.topologicalSort)-1):
-				graph.map.append(v)
-				if(len(A) == 0):
-					print("No occurrences")
-					return;
-				else:
-					print("The motif occurs in the graph")
-					return;	
-
-			graph.map.append(w)
+		#selecting neighbor that has a level greater than vertex v to maintain the order of dfs.
+		for neighbor in v.neighbors:
+			if(neighbor.level > v.level):	
+				w = neighbor
+				break
 		
-			for b in graph.vList:
-				if b.status == V_ENABLE and b.color == w.color:
-					if adjTo(b,v) == 1:
-						graph.vList[b.id].brand = V_DISABLE
-						graph.vList[b.id].status = V_DISABLE
 
-			for a in graph.vList:
-				if a.status == V_ENABLE and a.color == v.color.color:
-					graph.vList[a.id].status = V_DISABLE			
+		if(i == len(motif.topologicalSort)-1):
+			graph.map.append(v)
+			if(len(A) == 0):
+				#print("No occurrences")
+
+				for v in graph.vList:
+					v.status = V_ENABLE
+					graph.map = []
+				return 0
+			else:
+				#print("The motif occurs in the graph")
+				return 1	
+
+		graph.map.append(w)
+	
+		for b in graph.vList:
+			if b.status == V_ENABLE and b.color == w.color:
+				if adjTo(b,v) == 1:
+					graph.vList[b.id].brand = V_DISABLE
+					graph.vList[b.id].status = V_DISABLE
+
+		for a in graph.vList:
+			if a.status == V_ENABLE and a.color == v.color:
+				graph.vList[a.id].status = V_DISABLE	
+				
 #It says if two vertices are adjacent
 def adjTo(x, w):
-	for vertex in x.neighbors:
-		if(vertex.status == 1 and vertex.color == w.color.color):
+	for vertex in x.neighbors:	
+		if(vertex.status == 1 and vertex.color == w.color):
 			return 0
 	return 1	
 
@@ -118,12 +146,31 @@ def printSuccessors(self):
 #6 -Multiply the key values such that the total value of v is the result of this multiplication.
 #7 -The last calculated result will be the printed output.
 def countOcurrences(graph, motif):
+	count = 0
+	if len(motif.vList )== 1:
+		#If the motif has one vertex only, his color is 1.
+		
+		for v in graph.vList:
+			if v.color == 1:
+				count+=1 
+		return count		
+	if len(motif.vList) == 2:
+		v = motif.vList[0]
+		w = motif.vList[1]
+		for vertex in graph.vList:
+			if vertex.color == v.color :
+				for n in vertex.neighbors:
+					if n.color == w.color:
+						count+=1
+		return count				
+
+	motif.dfs()
 	
 	for m in motif.topologicalSort:
 		
 		result = 0 # Will save the final result
 		
-		for v in graph.colorTable[m.color.color]:
+		for v in graph.colorTable[m.color]:
 			
 			v.successors = m.successors.copy()
 
@@ -137,8 +184,7 @@ def countOcurrences(graph, motif):
 			v.value = total
 			result += total
 	#print("Total Ocurrences: ",result)	
-	for m in motif.topologicalSort:
-		for v in graph.colorTable[m.color.color]:
+	for v in graph.vList:
 			v.value = 1
 			v.successors.clear()
 	return result

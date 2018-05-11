@@ -1,10 +1,6 @@
 V_ENABLE = 1
 V_DISABLE = 0
 
-class Color(object):
-	def __init__(self, color):
-		self.color = color
-
 class Vertex(object):
 	def __init__(self):
 		self.id = 0
@@ -64,11 +60,25 @@ class Graph(object):
 		self.colorTable = [] 
 		self.map = []
 		self.eList = []		#List of edges
+		self.eTuple = []	#List of edges in tuple format.
 
 	def printVertices(self):
+		print(len(self.vList))
 		for vertex in self.vList:
 			print(vertex.id, vertex.color, vertex.label)	
-	
+			
+	def printArchiveMode(self):
+		n = len(self.vList)
+		print(n)
+		i = 0
+		if n == 1:
+			print(self.vList[i].id, self.vList[i].color, self.vList[i].label,end="\n")
+		else:
+			for i in range(n-1):
+				print(self.vList[i].id, self.vList[i].color, self.vList[i].label)			
+			print(self.vList[i+1].id, self.vList[i+1].color, self.vList[i+1].label,end="")
+		self.printEdges()
+
 	def printAdjacents(self):
 		for vertex in self.vList:
 			vertex.printNeighbors()	
@@ -94,7 +104,7 @@ class Graph(object):
 	
 		for neighbor in vertex.neighbors:
 			if(neighbor.status):
-				vertex.successors[neighbor.color.color] = 0
+				vertex.successors[neighbor.color] = 0
 				self.dfsVisit(neighbor)
 
 		vertex.level = self.level		

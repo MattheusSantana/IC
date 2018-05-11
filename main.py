@@ -4,52 +4,99 @@ from graph import *
 from makeGraph import *
 from tcg import *
 import copy
+import os
 
-# 1 Step: Generates K-graph
-k = int(input()) #Number of vertices
-Kgraph = makeKGraph(k)
-trees = makeTrees(Kgraph)
+# 1 Step: make K-graph
+# 2 Step: make trees 
+# 3 Step: print trees and search
+# 4 Step: save motifs and not motifs
+'''
+directory = sys.argv[2]
+ocurrences = 0
+files = os.listdir(directory)
+for f in files:
 
 
-file = open('treeK6.txt', 'r')
-array = []
-print("lendo arquivo...")
-for line in file.readlines():
-	a = list(map(int, line.split(',')))
-	array.append(a)
-print("arquivo lido!")	
-
-results = []
-count = 0
-count1 = 0
-graph = makeGraph("a")
-graph.initializeColorTable()
-
-for t in trees.treesList:
-	t.dfs()
-inicio = timeit.default_timer()
-for i in array:
-	count1+=1
-	for t in trees.treesList:
-		aux = deepcopy(t)
-		aux.dfs()
-		print(countOcurrences(graph, t))		
+	#taking motifs only.
+	if "motif_" in f:
 		
-	print("*****************")
-	upColor(trees.colors, i)
-	if count1 == 10:
-		break	
-		#TCG(graph,t)
-fim = timeit.default_timer()
-print("%0.9f" %(fim - inicio))
-'''print("*********************************")
-for i in results:
-	print(i)'''
+		arch = directory+f
+		graphName = f.replace("motif", "graph")
+		
+		archive = open(arch,'r')
+		#reading the first line
+		firstline = int(archive.readline())
+		if  firstline <7:
+			
+			#Open the graph.
+			
+			graph = makeGraphPPI(directory+graphName)
+			motifs = makeAllMotifsPPI(arch)
+			graph.initializeColorTable()
+			
+			
+			
+			
+			for m in motifs:
+				qtd = countOcurrences(graph, m)
+				i+=1
+				#print(i,"->", qtd)
+				if qtd > 0:
+					print(f, "->", firstline)
+					#print("achou ->", qtd )
+					ocurrences+=1
+					break	
+			
+			for m in motifs:
+				i+=1
+				#print(i)
+				if TCG(graph, m) == 1:
+					ocurrences+=1	
+					print(f.replace(".txt","\n"),end="")
+					m.printArchiveMode()
+					break'''
+					
+def main():
+	args = list(sys.argv)
 
+	directory = sys.argv[2]		
+	files = os.listdir(directory)	
+	total = 0
+	for file in files:
+		if "motif_" in file:
+			motifAddress = directory+file 					#Getting motif address
+			graphName = file.replace("motif", "graph")		#Getting adress of the graph relating to the motif.
 
-	
+			#Open motif file
+			motifAddress = open(motifAddress,'r')
+			firstline = int(motifAddress.readline())
+			if firstline <7:
+				#Open graph file and making graph.
+				graph = makeGraphPPI(directory+graphName)
+				#Generating all the different topologies for the motif.
+				motifs = makeAllMotifsPPI(directory+file)
+				motiffounds = 0
+				
+				#Search with TCG Algorithm.
+				if sys.argv[1]	== '-T':
 
-#Kgraph.printVertices()
-#Kgraph.printEdges()
-#for e in Kgraph.edges:
-#	print(e.u.id, e.v.id)
+					
+					if  '-v' in args:
+						for m in motifs:
+							result =  TCG(graph, m)
+							if result == 1:
+								print("Searching:",file,"|"," The motif has been found!")
+								break
+						if result != 1:
+							print("Searching:",file,"|"," No topology was found!")
+					else:
+						for m in motifs:
+							result =  TCG(graph, m)
+							if result == 1:
+								total+=1
+								break
+						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")
+					
+
+main()				
+							
