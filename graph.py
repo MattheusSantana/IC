@@ -61,7 +61,7 @@ class Graph(object):
 		self.map = []
 		self.eList = []		#List of edges
 		self.eTuple = []	#List of edges in tuple format.
-
+		self.colors = [] #List of the all colors.
 	def printVertices(self):
 		print(len(self.vList))
 		for vertex in self.vList:
@@ -72,11 +72,11 @@ class Graph(object):
 		print(n)
 		i = 0
 		if n == 1:
-			print(self.vList[i].id, self.vList[i].color, self.vList[i].label,end="\n")
+			print("%d:%d %s"%(self.vList[i].id,self.vList[i].color, self.vList[i].label))
 		else:
 			for i in range(n-1):
-				print(self.vList[i].id, self.vList[i].color, self.vList[i].label)			
-			print(self.vList[i+1].id, self.vList[i+1].color, self.vList[i+1].label,end="")
+				print("%d:%d %s"%(self.vList[i].id, self.vList[i].color, self.vList[i].label))			
+			print("%d:%d %s"%(self.vList[i+1].id, self.vList[i+1].color, self.vList[i+1].label),end="")
 		self.printEdges()
 
 	def printAdjacents(self):
@@ -95,7 +95,7 @@ class Graph(object):
 			vertex.status = V_ENABLE
 		
 		for vertex in self.vList:
-			if(vertex.status):
+			if vertex.status == V_ENABLE:
 				self.dfsVisit(vertex)
 
 	#2 step of depth-first search	
@@ -103,7 +103,7 @@ class Graph(object):
 		vertex.status = V_DISABLE
 	
 		for neighbor in vertex.neighbors:
-			if(neighbor.status):
+			if neighbor.status == V_ENABLE:
 				vertex.successors[neighbor.color] = 0
 				self.dfsVisit(neighbor)
 

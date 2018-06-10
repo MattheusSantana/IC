@@ -1,4 +1,5 @@
 import time
+from copy import copy, deepcopy
 from graph import * 
 
 
@@ -154,6 +155,7 @@ def countOcurrences(graph, motif):
 			if v.color == 1:
 				count+=1 
 		return count		
+	motif.dfs()
 	if len(motif.vList) == 2:
 		v = motif.vList[0]
 		w = motif.vList[1]
@@ -164,7 +166,6 @@ def countOcurrences(graph, motif):
 						count+=1
 		return count				
 
-	motif.dfs()
 	
 	for m in motif.topologicalSort:
 		
@@ -189,41 +190,70 @@ def countOcurrences(graph, motif):
 			v.successors.clear()
 	return result
 
-#Initializing graph that be populated.
+def allIsomorphics(graph, motif):
+	justOneColor = True
+	firstColor = None
+	alpha = None
+	beta = None
+
+	setG = []
+	setH = []
+	setA = []
+	setB = []
+
+	#step 0.
+	if len(graph.vList) == 0 or len(motif.topologicalSort) == 0:
+		return 
 
 
-#motif = Graph()
+	#step 1
+	if len(motif.topologicalSort) ==1:
+		
+		for v in graph.vList:
+			if v.status == V_ENABLE and v.color == motif.vList[0].color:
+				g = Graph()
+				g.vList.append(v)
+				setG.append(g)
+		#step 3.
+		return setG			
 
-#motif.CreateMotif("motif-600.txt")
-#motif.CreateMotif("motif-3.txt")
+	#step 2.
+	alpha = motif.topologicalSort[0].color
+	beta = motif.topologicalSort[0].neighbors[0].color
+	#step 2.1			
+	for v in graph.vList:
+		if v.status == V_ENABLE and v.color == alpha:
+			setA.append(v) #Store only id of vertices with color == alpha.
+			v.status = V_DISABLE	
 
-# ------------> Creating subsets <----------
-#graph.subsets(list(range(2)), len(graph.vList))
+	del(motif.topologicalSort[0])
+	#step 2.2
+	del(setG[:])
 
+	#step 2.3
+	setH = allIsomorphics(graph, motif)		
+	
+	for v in graph.vList:
+		if v.color == alpha:
+			v.status = V_ENABLE
 
-''' ------> Calling the TCG function <--------
-motif.dfs()
-graph.TCG(motif)
-'''	
+	#step 2.4		
+	for v in setA:
 
-
-''' ------> Getting an occurrence <-----------
-motif.dfs()
-graph.TCG(motif)
-
-#save an occurrence.
-v = [None] * len(motif.vList)
-graph.ocurrence(v, motif)
-'''
-
-
-#---> Counting the number of occurrences <----
-'''
-motif.dfs()
-graph.initializeColorTable()
-inicio = time.time()
-countOcurrences(graph, motif)
-fim = time.time()
-print("%0.9f" %(fim - inicio))
-'''
-
+		for n in v.neighbors:
+			if n.color == beta:
+				setB.append(n) 
+						
+		for G in setH:
+			for b in setB:
+				if b in G.vList and G.vList[G.vList.index(b)].status == V_ENABLE :
+					aux = Graph()
+					aux.vList = copy(G.vList)
+					aux.vList.append(v)
+					setG.append(aux)
+					
+			
+		del(setB[:])
+	del(setH[:])
+	del(setA[:])	
+	return setG

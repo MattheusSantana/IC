@@ -5,56 +5,8 @@ from makeGraph import *
 from tcg import *
 import copy
 import os
+sys.setrecursionlimit(10000000)
 
-# 1 Step: make K-graph
-# 2 Step: make trees 
-# 3 Step: print trees and search
-# 4 Step: save motifs and not motifs
-'''
-directory = sys.argv[2]
-ocurrences = 0
-files = os.listdir(directory)
-for f in files:
-
-
-	#taking motifs only.
-	if "motif_" in f:
-		
-		arch = directory+f
-		graphName = f.replace("motif", "graph")
-		
-		archive = open(arch,'r')
-		#reading the first line
-		firstline = int(archive.readline())
-		if  firstline <7:
-			
-			#Open the graph.
-			
-			graph = makeGraphPPI(directory+graphName)
-			motifs = makeAllMotifsPPI(arch)
-			graph.initializeColorTable()
-			
-			
-			
-			
-			for m in motifs:
-				qtd = countOcurrences(graph, m)
-				i+=1
-				#print(i,"->", qtd)
-				if qtd > 0:
-					print(f, "->", firstline)
-					#print("achou ->", qtd )
-					ocurrences+=1
-					break	
-			
-			for m in motifs:
-				i+=1
-				#print(i)
-				if TCG(graph, m) == 1:
-					ocurrences+=1	
-					print(f.replace(".txt","\n"),end="")
-					m.printArchiveMode()
-					break'''
 					
 def main():
 	args = list(sys.argv)
@@ -70,33 +22,57 @@ def main():
 			#Open motif file
 			motifAddress = open(motifAddress,'r')
 			firstline = int(motifAddress.readline())
-			if firstline <7:
+			if firstline >1 and firstline< 7:
 				#Open graph file and making graph.
 				graph = makeGraphPPI(directory+graphName)
 				#Generating all the different topologies for the motif.
 				motifs = makeAllMotifsPPI(directory+file)
 				motiffounds = 0
+				print(graphName)
+				
+				
 				
 				#Search with TCG Algorithm.
 				if sys.argv[1]	== '-T':
 
-					
 					if  '-v' in args:
 						for m in motifs:
 							result =  TCG(graph, m)
 							if result == 1:
-								print("Searching:",file,"|"," The motif has been found!")
+								print("File:",file,"|"," The motif has been found!")
+								
+								m.printArchiveMode()	
+								
+								for v in graph.vList:
+									v.status = V_ENABLE
+								g = cleanGraphVertices(graph,m)
+								cleanGraphEdges(g, m)
+								'''
+								#for v in m.topologicalSort:
+								#	print(v.color)
+								for v in g.vList:
+									print("v->", v.id, v.color)
+									for n in v.neighbors:
+										print(n.id, n.color, end="|")
+									print("\n")	
+								'''
+								graphs = allIsomorphics(g, m)
+								
+								print("Total Found:",len(graphs),"\n")
+								for graph in graphs:
+									graph.printArchiveMode()
+									print("\n")
 								total+=1
 								break
 						if result != 1:
-							print("Searching:",file,"|"," No topology was found!")
+							print("File:",file,"|"," No topology was found!")
 					else:
 						for m in motifs:
 							result =  TCG(graph, m)
 							if result == 1:
 								total+=1
 								break
-						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")
+						#print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")
 				if sys.argv[1] == '-C':
 					graph.initializeColorTable()
 					if '-v' in args:
@@ -104,10 +80,11 @@ def main():
 							qtd = countOcurrences(graph, m)
 							if qtd > 0:
 								total+=1
-								print("Searching:",file,"|"," The motif has been found!", "|", "Motif size:",len(m.vList), "Total ocurrences: ",qtd)
+								print("File:",file,"|"," The motif has been found!", "|", "Motif size:",len(m.vList), "| Total ocurrences: ",qtd)
+								
 								break
 						if qtd == 0:
-							print("Searching:",file,"|"," No topology was found!")
+							print("File:",file,"|"," No topology was found!")
 					else:
 						for m in motifs:
 							qtd = countOcurrences(graph, m)
@@ -116,9 +93,10 @@ def main():
 								break
 						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")	
 									
-
-										
 					
+										
+								
 	print("\nTotal founds", total)					
+						
+				
 main()				
-							

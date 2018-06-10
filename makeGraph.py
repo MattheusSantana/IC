@@ -1,6 +1,6 @@
 from graph import *
 from sub import *
-from copy import deepcopy
+from copy import deepcopy, copy
 
 
 '''
@@ -62,8 +62,47 @@ def makeGraphPPI(archive):
 
 	return graph	
 
+def cleanGraphVertices(graph, motif):
+	colors = dict()
+	newgraph = Graph()
+	vertices = []
+	
+	for v in motif.vList:
+		colors[v.color] = 0
+		newgraph.colors.append(v.color)	
+	
+	for v in graph.vList:
+		if colors.get(v.color) == None:
+			v.status = V_DISABLE		
+		else:
+			vertices.append(v)
+	
+	for v in vertices:
+		allDisable = True
+		for n in v.neighbors:
+			if n.color != v.color and n.status == V_ENABLE:
+				allDisable = False
+		if allDisable == True:
+			v.status = V_DISABLE						 
+	newgraph.vList = vertices	
+	return newgraph	
 
 
+def cleanGraphEdges(graph, motif):
+	edges = dict()
+	for e in motif.eList:
+		edges[(e.u.id+1, e.v.id+1)] = 1
+	#print(edges)
+	for v in graph.vList:
+		for i in range(len(v.neighbors)-1, -1, -1):
+			tupla1 = (v.color, v.neighbors[i].color)
+			tupla2 = (v.neighbors[i].color, v.color)
+			if edges.get(tupla1) == None and edges.get(tupla2) == None:
+				del(v.neighbors[i])
+
+	for v in graph.vList:
+		if len(v.neighbors) == 0:
+			v.status = V_DISABLE		
 def makeGraph(entry):
 		graph = Graph()	
 		#Open archive reference to graph
