@@ -22,24 +22,25 @@ def main():
 			#Open motif file
 			motifAddress = open(motifAddress,'r')
 			firstline = int(motifAddress.readline())
-			if firstline >1 and firstline< 7:
+			if firstline >2 and firstline< 7:
 				#Open graph file and making graph.
 				graph = makeGraphPPI(directory+graphName)
 				#Generating all the different topologies for the motif.
 				motifs = makeAllMotifsPPI(directory+file)
 				motiffounds = 0
 				print(graphName)
-				
-				
-				
+					
 				#Search with TCG Algorithm.
 				if sys.argv[1]	== '-T':
-
 					if  '-v' in args:
 						for m in motifs:
 							result =  TCG(graph, m)
 							if result == 1:
+								if '-G' in sys.argv:
+									setGap(graph, motifs[0])
+						
 								print("File:",file,"|"," The motif has been found!")
+								
 								
 								m.printArchiveMode()	
 								
@@ -47,15 +48,7 @@ def main():
 									v.status = V_ENABLE
 								g = cleanGraphVertices(graph,m)
 								cleanGraphEdges(g, m)
-								'''
-								#for v in m.topologicalSort:
-								#	print(v.color)
-								for v in g.vList:
-									print("v->", v.id, v.color)
-									for n in v.neighbors:
-										print(n.id, n.color, end="|")
-									print("\n")	
-								'''
+								
 								graphs = allIsomorphics(g, m)
 								
 								print("Total Found:",len(graphs),"\n")
@@ -92,7 +85,6 @@ def main():
 								total+=1
 								break
 						print("Searching motifs, please wait a sec! Total motifs Founds: ",total, end="\r")	
-									
 					
 										
 								

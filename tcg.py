@@ -1,4 +1,5 @@
 import time
+from sub import *
 from copy import copy, deepcopy
 from graph import * 
 
@@ -137,6 +138,30 @@ def printSuccessors(self):
 		for key in vertex.successors.keys():
 			print("->", key, ":", vertex.successors.get(key), end=" ")
 		print("}")	
+def setGap(graph, motif):
+	i = 1
+	print("Select the index refering the vertex pair to add the gap!\n For to add more than 1 gap you should write the values from the indexes with space, for example: 1 2 3")
+	for e in motif.eList:
+		print("%d- [%d-%d]"%(i, e.u.id+1, e.v.id+1))
+		i+=1
+	gaps = list(map(int,input().split()))	
+	print("gaps->",gaps)
+
+
+	for g in gaps:
+		for v in graph.vList:
+			if v.color == motif.eList[g-1].u.id+1:
+				for n in v.neighbors:
+					if n.color != motif.eList[g-1].v.id+1:
+						for i in n.neighbors:
+							if i.color == motif.eList[g-1].v.id+1 and v.isAdjacent(i.id) == 0:
+								#print("vou por uma aresta em ", v.id,"que é de cor ", v.color, "e ", i.id, "que é de cor", i.color)
+								v.neighbors.append(i)
+								i.neighbors.append(v)
+								edge = Edge()
+								edge.u = v 
+								edge.v = i
+								graph.eList.append(edge)
 
 
 #1 - For each m vertex of the motif in the topological sort.
@@ -154,7 +179,8 @@ def countOcurrences(graph, motif):
 		for v in graph.vList:
 			if v.color == 1:
 				count+=1 
-		return count		
+		return count
+				
 	motif.dfs()
 	if len(motif.vList) == 2:
 		v = motif.vList[0]
