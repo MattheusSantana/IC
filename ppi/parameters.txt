@@ -1,0 +1,13 @@
+for i in fly yeast human; do for j in bovine mouse rat; do ./data/ppi/run_experiments_ppi.sh ./data/ppi/graphs/$i/$j/graph_*.txt > $i-$j.txt 2>&1; done; done
+
+S="6"
+y="0.99"
+m="3"
+np="312"
+l=10000
+
+
+para cada conjunto de proteínas onde há ocorrência, no arquivo *_tab.txt haverá um cabeçalho com ao menos uma linha depois
+grep "CORRECTED_PVALUE" *_tab.txt -A 1 | egrep -v -- "CORRECTED_PVALUE|--" | cut -d '-' -f 1 | sort -u | wc -l
+
+para humano, a base de dados do go-term-finder que possui os identificadores conforme nossa base é o "GOA + HGNC Xrefs - H. sapiens (Human)"

@@ -1,0 +1,2964 @@
+
+./data/ppi/graphs/fly/rat/graph_000.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.128s
+user	0m0.449s
+sys	0m0.161s
+
+./data/ppi/graphs/fly/rat/graph_001.txt (1)
+CG11034 
+CG3744 
+ome 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.284s
+user	0m0.489s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_002.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.059s
+user	0m0.479s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_003.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.952s
+user	0m0.484s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_004.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.089s
+user	0m0.494s
+sys	0m0.150s
+
+./data/ppi/graphs/fly/rat/graph_005.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.085s
+user	0m0.491s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_006.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.090s
+user	0m0.477s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_007.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.099s
+user	0m0.479s
+sys	0m0.152s
+
+./data/ppi/graphs/fly/rat/graph_008.txt (1)
+Apc 
+Apc2 
+arm 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.077s
+user	0m0.477s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_009.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.043s
+user	0m0.510s
+sys	0m0.153s
+
+./data/ppi/graphs/fly/rat/graph_010.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.129s
+user	0m0.497s
+sys	0m0.179s
+
+./data/ppi/graphs/fly/rat/graph_011.txt (6-14)
+
+TOTAL OF COMBINATIONS: 3003
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 9 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 10 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 11 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 12 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 13 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 14 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.615s
+user	0m0.485s
+sys	0m0.191s
+
+./data/ppi/graphs/fly/rat/graph_012.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.118s
+user	0m0.478s
+sys	0m0.166s
+
+./data/ppi/graphs/fly/rat/graph_013.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.963s
+user	0m0.473s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_014.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.302s
+user	0m0.470s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_015.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.064s
+user	0m0.499s
+sys	0m0.183s
+
+./data/ppi/graphs/fly/rat/graph_016.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.109s
+user	0m0.508s
+sys	0m0.155s
+
+./data/ppi/graphs/fly/rat/graph_017.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.121s
+user	0m0.501s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_018.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.222s
+user	0m0.477s
+sys	0m0.180s
+
+./data/ppi/graphs/fly/rat/graph_019.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.217s
+user	0m0.488s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_020.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.019s
+user	0m0.451s
+sys	0m0.186s
+
+./data/ppi/graphs/fly/rat/graph_021.txt (5)
+CG10632 kermit loco par-6 
+CG10632 kermit par-6 
+CG6416 Pk17E cact 
+CG10632 aPKC par-6 
+CG30387 dlg1 
+CG10632 par-6 
+pyd rols 
+CG6800 pyd rols 
+CG10632 aPKC kermit loco par-6 
+CG10632 aPKC kermit par-6 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 22
+
+@@@@TOTAL: 48 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.06 SEC@@@@
+
+real	0m2.117s
+user	0m0.473s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_022.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.052s
+user	0m0.480s
+sys	0m0.181s
+
+./data/ppi/graphs/fly/rat/graph_023.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.104s
+user	0m0.491s
+sys	0m0.151s
+
+./data/ppi/graphs/fly/rat/graph_024.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.004s
+user	0m0.506s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_025.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.155s
+user	0m0.508s
+sys	0m0.155s
+
+./data/ppi/graphs/fly/rat/graph_026.txt (2)
+Cam KCNQ 
+CG5890 Shal 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.070s
+user	0m0.495s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_027.txt (1)
+Magi 
+Lap1 
+skf 
+CG15803 
+X11L 
+a 
+dlg1 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 7 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.063s
+user	0m0.505s
+sys	0m0.165s
+
+./data/ppi/graphs/fly/rat/graph_028.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.026s
+user	0m0.505s
+sys	0m0.153s
+
+./data/ppi/graphs/fly/rat/graph_029.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.943s
+user	0m0.463s
+sys	0m0.170s
+
+./data/ppi/graphs/fly/rat/graph_030.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.073s
+user	0m0.478s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_031.txt (1)
+CG9508 
+sls 
+CG34391 
+CG34113 
+klg 
+robo3 
+robo 
+Lac 
+rst 
+Fas3 
+CG11320 
+CG31708 
+hbs 
+CG14521 
+Cont 
+side 
+Pxn 
+CG34114 
+CG31646 
+Nrg 
+CG34353 
+ed 
+fra 
+CG32791 
+lea 
+Ama 
+boi 
+trol 
+zormin 
+Strn-Mlck 
+sns 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 32 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.088s
+user	0m0.473s
+sys	0m0.166s
+
+./data/ppi/graphs/fly/rat/graph_032.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.026s
+user	0m0.487s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_033.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.053s
+user	0m0.486s
+sys	0m0.183s
+
+./data/ppi/graphs/fly/rat/graph_034.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.986s
+user	0m0.475s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_035.txt (6-8)
+
+TOTAL OF COMBINATIONS: 28
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.426s
+user	0m0.486s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_036.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.062s
+user	0m0.490s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_037.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.088s
+user	0m0.499s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_038.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.079s
+user	0m0.488s
+sys	0m0.177s
+
+./data/ppi/graphs/fly/rat/graph_039.txt (1)
+Drip 
+bib 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.071s
+user	0m0.468s
+sys	0m0.171s
+
+./data/ppi/graphs/fly/rat/graph_040.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.036s
+user	0m0.488s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_041.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.893s
+user	0m0.477s
+sys	0m0.172s
+
+./data/ppi/graphs/fly/rat/graph_042.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.069s
+user	0m0.482s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_043.txt (1)
+Ten-a 
+Ten-m 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.021s
+user	0m0.505s
+sys	0m0.150s
+
+./data/ppi/graphs/fly/rat/graph_044.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.001s
+user	0m0.459s
+sys	0m0.178s
+
+./data/ppi/graphs/fly/rat/graph_045.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.102s
+user	0m0.485s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_046.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.163s
+user	0m0.509s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_047.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.275s
+user	0m0.490s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_048.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.133s
+user	0m0.492s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_049.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.778s
+user	0m0.464s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_050.txt (1)
+kay 
+A3-3 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.067s
+user	0m0.479s
+sys	0m0.173s
+
+./data/ppi/graphs/fly/rat/graph_051.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.851s
+user	0m0.477s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_052.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.248s
+user	0m0.470s
+sys	0m0.178s
+
+./data/ppi/graphs/fly/rat/graph_053.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.030s
+user	0m0.468s
+sys	0m0.176s
+
+./data/ppi/graphs/fly/rat/graph_054.txt (1)
+Ret 
+CG7028 
+PEK 
+aux 
+CG32944 
+Ack 
+sax 
+CG15072 
+Pka-C2 
+MAPk-Ak2 
+SNF1A 
+CG10177 
+Eph 
+lic 
+CG7156 
+sev 
+Mekk1 
+Gcn2 
+trc 
+Pk92B 
+htl 
+Tak1 
+Mkk4 
+Pak3 
+CG7094 
+Cdk9 
+Egfr 
+babo 
+Tao-1 
+inaC 
+CG32703 
+GckIII 
+CG3105 
+tor 
+Cdk7 
+Pkcdelta 
+ninaC 
+sgg 
+drl 
+wts 
+phl 
+ik2 
+CG8866 
+LIMK1 
+aPKC 
+CG4945 
+Pkc98E 
+Pka-C1 
+Pk61C 
+put 
+Fak56D 
+nmo 
+Fps85D 
+dnt 
+p38b 
+S6kII 
+grp 
+Lk6 
+Cdk5 
+ire-1 
+S6k 
+Src64B 
+Tie 
+Btk29A 
+Akt1 
+Nek2 
+mbt 
+hep 
+CG7236 
+Caki 
+Cdk4 
+Pak 
+Pk17E 
+fu 
+png 
+hpo 
+Pka-C3 
+Csk 
+Pink1 
+PhKgamma 
+Src42A 
+cdc2c 
+Strn-Mlck 
+CaMKII 
+trbl 
+CG4290 
+CG11870 
+CG6800 
+polo 
+bsk 
+cdc2 
+for 
+ial 
+CkIIalpha 
+CG7177 
+msn 
+mnb 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 98 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.102s
+user	0m0.471s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_055.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.279s
+user	0m0.500s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_056.txt (5)
+skf veli 
+Egfr skf veli 
+Egfr veli 
+kermit loco par-6 
+aPKC kermit loco par-6 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 125
+
+@@@@TOTAL: 385 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.17 SEC@@@@
+
+real	0m3.396s
+user	0m0.474s
+sys	0m0.175s
+
+./data/ppi/graphs/fly/rat/graph_057.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.016s
+user	0m0.469s
+sys	0m0.166s
+
+./data/ppi/graphs/fly/rat/graph_058.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.204s
+user	0m0.505s
+sys	0m0.178s
+
+./data/ppi/graphs/fly/rat/graph_059.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.196s
+user	0m0.510s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_060.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.006s
+user	0m0.502s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_061.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.030s
+user	0m0.483s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_062.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.087s
+user	0m0.473s
+sys	0m0.160s
+
+./data/ppi/graphs/fly/rat/graph_063.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.255s
+user	0m0.468s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_064.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.084s
+user	0m0.473s
+sys	0m0.182s
+
+./data/ppi/graphs/fly/rat/graph_065.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.067s
+user	0m0.513s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_066.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.106s
+user	0m0.468s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_067.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.112s
+user	0m0.485s
+sys	0m0.179s
+
+./data/ppi/graphs/fly/rat/graph_068.txt (1)
+sl 
+Lnk 
+CG12241 
+l(3)05822 
+CG10933 
+CG10083 
+CAP 
+Graf 
+Synd 
+Socs16D 
+CG13604 
+Pi3K21B 
+CG31012 
+CG32406 
+Socs44A 
+Fps85D 
+Shc 
+CG4040 
+csw 
+POSH 
+Dap160 
+dock 
+Abi 
+Crk 
+Src64B 
+Btk29A 
+CG9098 
+drk 
+rtGEF 
+Csk 
+Src42A 
+Stam 
+endoA 
+dlg1 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 34 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.917s
+user	0m0.484s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_069.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.077s
+user	0m0.475s
+sys	0m0.180s
+
+./data/ppi/graphs/fly/rat/graph_070.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.296s
+user	0m0.483s
+sys	0m0.148s
+
+./data/ppi/graphs/fly/rat/graph_071.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.080s
+user	0m0.489s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_072.txt (1)
+Drip 
+bib 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.055s
+user	0m0.506s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_073.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.109s
+user	0m0.469s
+sys	0m0.170s
+
+./data/ppi/graphs/fly/rat/graph_074.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.042s
+user	0m0.505s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_075.txt (6-9)
+
+TOTAL OF COMBINATIONS: 84
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 302
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 152
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 14
+
+TOPOLOGICAL MOTIFS OF SIZE 9 FOUND: 2
+Epac Pkc98E Pp1-87B cdc2c 
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 12.31 SEC@@@@
+
+real	0m2.883s
+user	0m0.513s
+sys	0m0.149s
+
+./data/ppi/graphs/fly/rat/graph_076.txt (1)
+RhoGAP18B 
+RhoGAPp190 
+CdGAPr 
+RhoGAP93B 
+Graf 
+RhoGAP54D 
+Rlip 
+cv-c 
+RhoGAP68F 
+RhoGAP92B 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 10 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.093s
+user	0m0.492s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_077.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.072s
+user	0m0.482s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_078.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.920s
+user	0m0.498s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_079.txt (2)
+A3-3 Jra 
+Jra kay 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.021s
+user	0m0.482s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_080.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.283s
+user	0m0.489s
+sys	0m0.177s
+
+./data/ppi/graphs/fly/rat/graph_081.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.066s
+user	0m0.495s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_082.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.951s
+user	0m0.478s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_083.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.274s
+user	0m0.517s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_084.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.096s
+user	0m0.492s
+sys	0m0.149s
+
+./data/ppi/graphs/fly/rat/graph_085.txt (2)
+HLH3B da 
+Fer3 da 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.037s
+user	0m0.490s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_086.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.018s
+user	0m0.468s
+sys	0m0.172s
+
+./data/ppi/graphs/fly/rat/graph_087.txt (1)
+Ten-a 
+Ten-m 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.997s
+user	0m0.486s
+sys	0m0.148s
+
+./data/ppi/graphs/fly/rat/graph_088.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.084s
+user	0m0.506s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_089.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.022s
+user	0m0.496s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_090.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.835s
+user	0m0.497s
+sys	0m0.165s
+
+./data/ppi/graphs/fly/rat/graph_091.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.051s
+user	0m0.523s
+sys	0m0.151s
+
+./data/ppi/graphs/fly/rat/graph_092.txt (1)
+CG11034 
+CG3744 
+ome 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.057s
+user	0m0.510s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_093.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.268s
+user	0m0.492s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_094.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.113s
+user	0m0.483s
+sys	0m0.170s
+
+./data/ppi/graphs/fly/rat/graph_095.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.048s
+user	0m0.497s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_096.txt (1)
+Ca-alpha1T 
+Shal 
+Sh 
+NaCP60E 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 4 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.880s
+user	0m0.503s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_097.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.154s
+user	0m0.496s
+sys	0m0.149s
+
+./data/ppi/graphs/fly/rat/graph_098.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.000s
+user	0m0.490s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_099.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.255s
+user	0m0.494s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_100.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.028s
+user	0m0.490s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_101.txt (6-11)
+
+TOTAL OF COMBINATIONS: 462
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 9 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 10 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 11 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.1 SEC@@@@
+
+real	0m2.727s
+user	0m0.504s
+sys	0m0.170s
+
+./data/ppi/graphs/fly/rat/graph_102.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.015s
+user	0m0.485s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_103.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.086s
+user	0m0.484s
+sys	0m0.175s
+
+./data/ppi/graphs/fly/rat/graph_104.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.025s
+user	0m0.497s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_105.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.116s
+user	0m0.503s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_106.txt (1)
+Ret 
+kek2 
+PEK 
+aux 
+CG32944 
+Ack 
+sax 
+CG9508 
+Gyc76C 
+CG15072 
+ImpL2 
+Pka-C2 
+MAPk-Ak2 
+SNF1A 
+CG10177 
+sls 
+Eph 
+CG34391 
+lic 
+wit 
+klg 
+robo3 
+sev 
+Mekk1 
+trc 
+Pk92B 
+htl 
+Tak1 
+Mkk4 
+Pak3 
+CG7094 
+Cdk9 
+CG34357 
+Egfr 
+CG31431 
+robo 
+dco 
+babo 
+Lac 
+Tao-1 
+inaC 
+CG31708 
+CG32703 
+GckIII 
+CG3105 
+tor 
+hbs 
+Cdk7 
+CG14521 
+Pkcdelta 
+ninaC 
+Cont 
+gish 
+Pxn 
+sgg 
+drl 
+wts 
+phl 
+ik2 
+CG8866 
+LIMK1 
+aPKC 
+CG4945 
+CG31646 
+Nrg 
+wee 
+Pkc98E 
+Pka-C1 
+Pk61C 
+put 
+Fak56D 
+nmo 
+Fps85D 
+dnt 
+p38b 
+CG34353 
+dpr17 
+ed 
+S6kII 
+grp 
+Lk6 
+Cdk5 
+ire-1 
+S6k 
+Src64B 
+Tie 
+fra 
+Btk29A 
+CG32791 
+Akt1 
+lea 
+Nek2 
+Ama 
+mbt 
+hep 
+CG7236 
+Caki 
+Cdk4 
+Pak 
+boi 
+Pk17E 
+fu 
+png 
+hpo 
+Pka-C3 
+trol 
+Csk 
+Pink1 
+PhKgamma 
+Src42A 
+zormin 
+cdc2c 
+Strn-Mlck 
+CaMKII 
+Ppn 
+CG4290 
+CG11870 
+CG6800 
+polo 
+bsk 
+cdc2 
+CG8173 
+for 
+ial 
+CkIIalpha 
+CG7177 
+sns 
+msn 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 129 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.01 SEC@@@@
+
+real	0m2.118s
+user	0m0.479s
+sys	0m0.175s
+
+./data/ppi/graphs/fly/rat/graph_107.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.082s
+user	0m0.491s
+sys	0m0.186s
+
+./data/ppi/graphs/fly/rat/graph_108.txt (2)
+HLH3B da 
+Fer3 da 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.036s
+user	0m0.470s
+sys	0m0.182s
+
+./data/ppi/graphs/fly/rat/graph_109.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.105s
+user	0m0.486s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_110.txt (2)
+CG6800 rols 
+pyd rols 
+CG8679 trbl 
+fu tankyrase 
+Src64B tankyrase 
+CG30387 dlg1 
+CG31919 CG8173 
+CG10632 par-6 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 8 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.086s
+user	0m0.494s
+sys	0m0.181s
+
+./data/ppi/graphs/fly/rat/graph_111.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.118s
+user	0m0.481s
+sys	0m0.160s
+
+./data/ppi/graphs/fly/rat/graph_112.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.101s
+user	0m0.489s
+sys	0m0.165s
+
+./data/ppi/graphs/fly/rat/graph_113.txt (6-7)
+
+TOTAL OF COMBINATIONS: 7
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.225s
+user	0m0.505s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_114.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.023s
+user	0m0.465s
+sys	0m0.176s
+
+./data/ppi/graphs/fly/rat/graph_115.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.988s
+user	0m0.501s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_116.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.120s
+user	0m0.499s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_117.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.986s
+user	0m0.509s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_118.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.267s
+user	0m0.487s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_119.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.100s
+user	0m0.496s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_120.txt (6)
+Actn CG6416 Pk17E cher ed 
+Actn CG34114 CG6416 Pk17E cher 
+Actn CG6416 Pk17E ed 
+Actn CG34114 CG6416 Pk17E 
+Actn CG6416 Pk17E cher sns 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 3
+
+@@@@TOTAL: 12 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.29 SEC@@@@
+
+real	0m3.265s
+user	0m0.489s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_121.txt (1)
+Dyb 
+Ada2b 
+ref(2)P 
+dah 
+Dys 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 5 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.935s
+user	0m0.496s
+sys	0m0.159s
+
+./data/ppi/graphs/fly/rat/graph_122.txt (1)
+Hr96 
+dsf 
+Hr78 
+usp 
+eg 
+knrl 
+EcR 
+kni 
+ftz-f1 
+tll 
+Hnf4 
+Hr39 
+ERR 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 13 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.012s
+user	0m0.485s
+sys	0m0.161s
+
+./data/ppi/graphs/fly/rat/graph_123.txt (6)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.073s
+user	0m0.467s
+sys	0m0.171s
+
+./data/ppi/graphs/fly/rat/graph_124.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.033s
+user	0m0.506s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_125.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.039s
+user	0m0.501s
+sys	0m0.152s
+
+./data/ppi/graphs/fly/rat/graph_126.txt (1)
+CG7095 
+loco 
+RSG7 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.094s
+user	0m0.516s
+sys	0m0.153s
+
+./data/ppi/graphs/fly/rat/graph_127.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.078s
+user	0m0.508s
+sys	0m0.173s
+
+./data/ppi/graphs/fly/rat/graph_128.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.947s
+user	0m0.501s
+sys	0m0.161s
+
+./data/ppi/graphs/fly/rat/graph_129.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.086s
+user	0m0.465s
+sys	0m0.173s
+
+./data/ppi/graphs/fly/rat/graph_130.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.996s
+user	0m0.474s
+sys	0m0.176s
+
+./data/ppi/graphs/fly/rat/graph_131.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.234s
+user	0m0.480s
+sys	0m0.172s
+
+./data/ppi/graphs/fly/rat/graph_132.txt (2)
+Cam KCNQ 
+CG5890 Shal 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.233s
+user	0m0.473s
+sys	0m0.175s
+
+./data/ppi/graphs/fly/rat/graph_133.txt (2)
+And KCNQ 
+CG11638 KCNQ 
+CG5890 Shal 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.992s
+user	0m0.508s
+sys	0m0.151s
+
+./data/ppi/graphs/fly/rat/graph_134.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.091s
+user	0m0.467s
+sys	0m0.183s
+
+./data/ppi/graphs/fly/rat/graph_135.txt (6)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.035s
+user	0m0.504s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_136.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.010s
+user	0m0.494s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_137.txt (1)
+Ret 
+PEK 
+aux 
+CG32944 
+Ack 
+sax 
+Gyc76C 
+CG15072 
+Pka-C2 
+SNF1A 
+Eph 
+lic 
+wit 
+sev 
+Mekk1 
+Gcn2 
+Pk92B 
+htl 
+Tak1 
+Mkk4 
+Pak3 
+Cdk9 
+CG34357 
+Egfr 
+babo 
+Tao-1 
+inaC 
+CG32703 
+GckIII 
+tor 
+Cdk7 
+Pkcdelta 
+ninaC 
+drl 
+phl 
+ik2 
+LIMK1 
+Pkc98E 
+Pka-C1 
+put 
+Fak56D 
+nmo 
+Fps85D 
+p38b 
+S6kII 
+grp 
+Lk6 
+Cdk5 
+ire-1 
+S6k 
+Src64B 
+Tie 
+Btk29A 
+Akt1 
+Nek2 
+mbt 
+hep 
+CG7236 
+Cdk4 
+Pak 
+fu 
+png 
+hpo 
+Pka-C3 
+Csk 
+Pink1 
+PhKgamma 
+Src42A 
+cdc2c 
+Strn-Mlck 
+CaMKII 
+CG4290 
+CG11870 
+CG6800 
+bsk 
+cdc2 
+CG8173 
+for 
+ial 
+CG7177 
+msn 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 82 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.01 SEC@@@@
+
+real	0m2.113s
+user	0m0.461s
+sys	0m0.173s
+
+./data/ppi/graphs/fly/rat/graph_138.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.072s
+user	0m0.487s
+sys	0m0.142s
+
+./data/ppi/graphs/fly/rat/graph_139.txt (1)
+Drip 
+bib 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.008s
+user	0m0.502s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_140.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.125s
+user	0m0.508s
+sys	0m0.149s
+
+./data/ppi/graphs/fly/rat/graph_141.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.042s
+user	0m0.475s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_142.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.091s
+user	0m0.510s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_143.txt (3)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 3 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.101s
+user	0m0.490s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_144.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.081s
+user	0m0.460s
+sys	0m0.185s
+
+./data/ppi/graphs/fly/rat/graph_145.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.066s
+user	0m0.483s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_146.txt (1)
+Shal 
+CG14647 
+CG10440 
+Sh 
+KCNQ 
+CG32810 
+CG9467 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 7 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.121s
+user	0m0.500s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_147.txt (6)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.265s
+user	0m0.494s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_148.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.200s
+user	0m0.463s
+sys	0m0.181s
+
+./data/ppi/graphs/fly/rat/graph_149.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.276s
+user	0m0.458s
+sys	0m0.176s
+
+./data/ppi/graphs/fly/rat/graph_150.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.096s
+user	0m0.494s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_151.txt (1)
+Ca-alpha1T 
+Shal 
+NaCP60E 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 3 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.071s
+user	0m0.464s
+sys	0m0.181s
+
+./data/ppi/graphs/fly/rat/graph_152.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.105s
+user	0m0.476s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_153.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.204s
+user	0m0.489s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_154.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.012s
+user	0m0.457s
+sys	0m0.179s
+
+./data/ppi/graphs/fly/rat/graph_155.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.265s
+user	0m0.490s
+sys	0m0.169s
+
+./data/ppi/graphs/fly/rat/graph_156.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.241s
+user	0m0.496s
+sys	0m0.146s
+
+./data/ppi/graphs/fly/rat/graph_157.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.037s
+user	0m0.480s
+sys	0m0.176s
+
+./data/ppi/graphs/fly/rat/graph_158.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.992s
+user	0m0.478s
+sys	0m0.173s
+
+./data/ppi/graphs/fly/rat/graph_159.txt (6)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.225s
+user	0m0.491s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_160.txt (1)
+Ret 
+CG7028 
+PEK 
+aux 
+CG32944 
+Ack 
+sax 
+CG15072 
+Pka-C2 
+MAPk-Ak2 
+SNF1A 
+CG10177 
+Eph 
+lic 
+CG7156 
+sev 
+Mekk1 
+Gcn2 
+trc 
+Pk92B 
+htl 
+Tak1 
+Mkk4 
+Pak3 
+CG7094 
+Cdk9 
+Egfr 
+babo 
+Tao-1 
+inaC 
+CG32703 
+GckIII 
+CG3105 
+tor 
+Cdk7 
+Pkcdelta 
+ninaC 
+sgg 
+drl 
+wts 
+phl 
+ik2 
+CG8866 
+LIMK1 
+aPKC 
+CG4945 
+Pkc98E 
+Pka-C1 
+Pk61C 
+put 
+Fak56D 
+nmo 
+Fps85D 
+dnt 
+p38b 
+S6kII 
+grp 
+Lk6 
+Cdk5 
+ire-1 
+S6k 
+Src64B 
+Tie 
+Btk29A 
+Akt1 
+Nek2 
+mbt 
+hep 
+CG7236 
+Caki 
+Cdk4 
+Pak 
+Pk17E 
+fu 
+png 
+hpo 
+Pka-C3 
+Csk 
+Pink1 
+PhKgamma 
+Src42A 
+cdc2c 
+Strn-Mlck 
+CaMKII 
+trbl 
+CG4290 
+CG11870 
+CG6800 
+polo 
+bsk 
+cdc2 
+for 
+ial 
+CkIIalpha 
+CG7177 
+msn 
+mnb 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 98 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.252s
+user	0m0.496s
+sys	0m0.154s
+
+./data/ppi/graphs/fly/rat/graph_161.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.008s
+user	0m0.476s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_162.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.126s
+user	0m0.506s
+sys	0m0.151s
+
+./data/ppi/graphs/fly/rat/graph_163.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.180s
+user	0m0.496s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_164.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.075s
+user	0m0.480s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_165.txt (1)
+Ret 
+CG7028 
+PEK 
+aux 
+CG32944 
+Ack 
+sax 
+CG15072 
+Pka-C2 
+MAPk-Ak2 
+SNF1A 
+CG10177 
+Eph 
+lic 
+CG7156 
+sev 
+Mekk1 
+Gcn2 
+trc 
+Pk92B 
+htl 
+Tak1 
+Mkk4 
+Pak3 
+CG7094 
+Cdk9 
+Egfr 
+babo 
+Tao-1 
+inaC 
+CG32703 
+GckIII 
+CG3105 
+tor 
+Cdk7 
+Pkcdelta 
+ninaC 
+sgg 
+drl 
+wts 
+phl 
+ik2 
+CG8866 
+LIMK1 
+aPKC 
+CG4945 
+Pkc98E 
+Pka-C1 
+Pk61C 
+put 
+Fak56D 
+nmo 
+Fps85D 
+dnt 
+p38b 
+S6kII 
+grp 
+Lk6 
+Cdk5 
+ire-1 
+S6k 
+Src64B 
+Tie 
+Btk29A 
+Akt1 
+Nek2 
+mbt 
+hep 
+CG7236 
+Caki 
+Cdk4 
+Pak 
+Pk17E 
+fu 
+png 
+hpo 
+Pka-C3 
+Csk 
+Pink1 
+PhKgamma 
+Src42A 
+cdc2c 
+Strn-Mlck 
+CaMKII 
+trbl 
+CG4290 
+CG11870 
+CG6800 
+polo 
+bsk 
+cdc2 
+for 
+ial 
+CkIIalpha 
+CG7177 
+msn 
+mnb 
+bt 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 1
+
+@@@@TOTAL: 98 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0.01 SEC@@@@
+
+real	0m2.117s
+user	0m0.509s
+sys	0m0.145s
+
+./data/ppi/graphs/fly/rat/graph_166.txt (2)
+Cam KCNQ 
+CG5890 Shal 
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 1
+
+@@@@TOTAL: 2 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.009s
+user	0m0.484s
+sys	0m0.164s
+
+./data/ppi/graphs/fly/rat/graph_167.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.939s
+user	0m0.495s
+sys	0m0.174s
+
+./data/ppi/graphs/fly/rat/graph_168.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.072s
+user	0m0.467s
+sys	0m0.163s
+
+./data/ppi/graphs/fly/rat/graph_169.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.033s
+user	0m0.466s
+sys	0m0.161s
+
+./data/ppi/graphs/fly/rat/graph_170.txt (6-16)
+
+TOTAL OF COMBINATIONS: 8008
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 9 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 10 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 11 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 12 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 13 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 14 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 15 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 16 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.002s
+user	0m0.468s
+sys	0m0.181s
+
+./data/ppi/graphs/fly/rat/graph_171.txt (4)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 4 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.014s
+user	0m0.486s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_172.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.012s
+user	0m0.507s
+sys	0m0.158s
+
+./data/ppi/graphs/fly/rat/graph_173.txt (1)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 1 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.226s
+user	0m0.483s
+sys	0m0.170s
+
+./data/ppi/graphs/fly/rat/graph_174.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.166s
+user	0m0.486s
+sys	0m0.167s
+
+./data/ppi/graphs/fly/rat/graph_175.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m3.045s
+user	0m0.500s
+sys	0m0.161s
+
+./data/ppi/graphs/fly/rat/graph_176.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.144s
+user	0m0.509s
+sys	0m0.162s
+
+./data/ppi/graphs/fly/rat/graph_177.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.088s
+user	0m0.497s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_178.txt (5)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 5 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.065s
+user	0m0.483s
+sys	0m0.148s
+
+./data/ppi/graphs/fly/rat/graph_179.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.265s
+user	0m0.496s
+sys	0m0.157s
+
+./data/ppi/graphs/fly/rat/graph_180.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.143s
+user	0m0.473s
+sys	0m0.156s
+
+./data/ppi/graphs/fly/rat/graph_181.txt (2)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 2 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.079s
+user	0m0.479s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_182.txt (6-11)
+
+TOTAL OF COMBINATIONS: 462
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 7 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 8 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 9 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 10 FOUND: 0
+
+TOPOLOGICAL MOTIFS OF SIZE 11 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.733s
+user	0m0.485s
+sys	0m0.168s
+
+./data/ppi/graphs/fly/rat/graph_183.txt (6)
+
+TOTAL OF COMBINATIONS: 1
+
+TOPOLOGICAL MOTIFS OF SIZE 6 FOUND: 0
+
+@@@@TOTAL: 0 MOTIFS OCCURRENCES, TIME (SPENT ONLY ON ALL_ISOMORPHIC): 0 SEC@@@@
+
+real	0m2.072s
+user	0m0.480s
+sys	0m0.176s
