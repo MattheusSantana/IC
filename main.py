@@ -41,6 +41,9 @@ notAllColors = []
 numberMax = []
 result = 0
 
+totalDuplicatedVertex = 0
+totalGlobalOccurrences = 0
+
 #It receives a directory containing several graph and motif files and returns an ordered list of graphs and their respective motifs.
 #Check if all colors in the motif are in the graph.
 #Verifies if the motif size is less than limit passed in the argument list.
@@ -61,7 +64,7 @@ def managerFiles(files):
 			motif = open(motifAddress, 'r')
 			motifSize = int(motif.readline())
 			
-			if maxMotifSize < motifSize:
+			if maxMotifSize < motifSize or motifSize == 1:
 				print("[REMOVED]:", graphName,"The size of the motif has exceeded the parameter limit", end="\r")
 				exceedsSize.append(graphName)
 				continue
@@ -94,14 +97,25 @@ def getNumberOfVertices(fileMotif):
 	return int(fileMotif.readline()) #Getting number of vertices in the first line.
 
 def handle(match):
-
+	totalDuplicatedVertex = 0
+	totalGlobalOccurrences = 0
+	totalGlobalFound = 0
 	for m in match:
 		# if numero de vértices for menor do que o passado por parametro 
 		# if enumerate :	
 		
 		#print(m[0])  #Print graph Addres
+		aux1, aux2, found = enumerate(m[0], m[1])	
+		
+		if aux1 > 0:
+			totalDuplicatedVertex += aux1
+			totalGlobalOccurrences += aux2
+			print("[INFO]: %d of %d occurrences were removed by duplicated vertices."%(aux1, aux2))
 
-		enumerate(m[0], m[1])	
+		if found > 0:
+			totalGlobalFound+=1	
+	print("[INFO]: %d of %d occurrences were removed by duplicated vertices."%(totalDuplicatedVertex, totalGlobalOccurrences))
+	print("[RESULT]: %d motifs of %d were found." %(totalGlobalFound, len(match)))
 
 def enumerate(graphAddress, motifAddress):
 	maxoccurrences = 5000
@@ -109,42 +123,55 @@ def enumerate(graphAddress, motifAddress):
 	graphName = partition[-1]
 	motifs = makeAllMotifsPPI(motifAddress) #Generate All motif topologies 
 	allOccurrences = []
+	totalDuplicatedVertex = 0
+	totalGlobalOccurrences = 0
 
-	print("[Searching]: ",graphName, end="\r")
 	for m in motifs:
 
 		graphCopy = makeGraphPPI(graphAddress)
 		result =  TCG(graphCopy, m)
 		
 		if result < 1:
-			continue
+			continue		
 		
-
 		cleangraph = cleargraph(graphCopy, m)	
 		occurrences = allIsomorphics(cleangraph, m)
-
+		totalGlobalOccurrences += len(occurrences)
+		
+		length = len(occurrences)
+		for i in range(length-1,-1, -1):
+			if checkDuplicatedVertex(occurrences[i]) == True:
+				del(occurrences[i])
+				totalDuplicatedVertex+=1
+					
+		
 			
 		
-		#Removing occurrences with duplicated vertices.
-		for occurrence in occurrences:
-			if checkDuplicatedVertex(occurrence):
-				occurrences.remove(occurrence)
-
-		allOccurrences += occurrences
 		
+		allOccurrences += occurrences 
 	if len(allOccurrences) > 0:
-		print(graphName)
 		
-		for graph in allOccurrences:
-			sumEvalue(graph)
-	
+		#Removing occurrences with duplicated vertices.
+
+		oldLength = len(allOccurrences)
 		allOccurrences = checkEqualsOccurrences(allOccurrences)	
+		newLength = len(allOccurrences)
+		removed = oldLength - newLength
+		if removed > 0:
+			print("[INFO]: %d of %d occurrences were removed because they were the same"%(removed, oldLength))
+
+
+		for occurrence in allOccurrences:
+			sumEvalue(occurrence)
+	
+
+
 		allOccurrences.sort(key=attrgetter("totalEvalue"))
-		printAllOcurrences(allOccurrences)
+		printAllOcurrences(allOccurrences, graphName)
+		
+	return totalDuplicatedVertex, totalGlobalOccurrences, len(allOccurrences)
 
-				
 
-	#writeoccurrences(allOccurrences, graphName)
 
 def checkEqualsOccurrences(allOccurrences):
 	dic = {}
@@ -158,13 +185,15 @@ def checkEqualsOccurrences(allOccurrences):
 		
 	return list(dic.values())
 
-def printAllOcurrences(allOccurrences):
 
-	print("[RESULT]: %d occurrences found" %(len(allOccurrences)))
+
+def printAllOcurrences(allOccurrences, graphName):
+
+	print("[RESULT]: %d occurrences found in %s" %(len(allOccurrences),graphName))
 	for graph in allOccurrences:
 		for v in graph.vList:
-			print("protein:", v.label, " E-value:",v.evalue)		
-		print("TOTAL e-value:",graph.totalEvalue,"\n")
+			print(v.id , v.label, v.evalue)		
+		print("Total e-value:",graph.totalEvalue,"\n")
 	print("\n")	
 
 #TO DO 
@@ -208,8 +237,10 @@ def printlogs():
 	for g in numberMax:
 		print(g)	
 
+
 match, exceedsSize, noAllColors = managerFiles(files)
 handle(match)
+
 
 '''
 	TO DO:

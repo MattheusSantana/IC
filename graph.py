@@ -61,12 +61,21 @@ class Graph(object):
 		self.map = []
 		self.eList = []		#List of edges
 		self.eTuple = []	#List of edges in tuple format.
-		self.colors = [] #List of the all colors.
+		self.colors = []	#List of the all colors.
+		self.evalue = 0.0
+		self.totalEvalue = 0.0	#If is a motif, it will be utilized to calculate the total sum of evalue of each vertex. 
+		self.graphName = ""
+		
 	def printVertices(self):
 		print(len(self.vList))
 		for vertex in self.vList:
 			print(vertex.id, vertex.color, vertex.label)	
 			
+	def printVerticesName(self):
+		for v in self.vList:
+			print(v.label)	
+		print("")	
+
 	def printArchiveMode(self):
 		n = len(self.vList)
 		print(n)

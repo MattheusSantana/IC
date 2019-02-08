@@ -41,11 +41,12 @@ def makeGraphPPI(archive):
 	for i in range(graph.maxN):
 		line = file.readline()
 		v = Vertex()
-		string1, label = string1, string2 = line.split()
+		string1, label, evalue = line.split()
 		index, color = string1.split(':')
 		v.id = int(index)
 		v.color = int(color)
 		v.label = label
+		v.evalue = float(evalue)
 		graph.vList.append(v)
 	lines = file.readlines()
 	
@@ -59,7 +60,7 @@ def makeGraphPPI(archive):
 		graph.vList[adj].neighbors.append(graph.vList[index])
 		graph.eList.append(edge)
 
-
+	file.close()	
 	return graph	
 
 def cleanGraphVertices(graph, motif):
@@ -103,6 +104,7 @@ def cleanGraphEdges(graph, motif):
 	for v in graph.vList:
 		if len(v.neighbors) == 0:
 			v.status = V_DISABLE		
+	
 def makeGraph(entry):
 		graph = Graph()	
 		#Open archive reference to graph
@@ -191,6 +193,10 @@ def makeAllMotifsPPI(archive):
 		if verticesNumber == 2:
 			motif.vList[0].neighbors.append(motif.vList[1])
 			motif.vList[1].neighbors.append(motif.vList[0])
+			edge = Edge()
+			edge.u = motif.vList[0]
+			edge.v = motif.vList[1]
+			motif.eList.append(edge)
 		trees.append(motif)
 		
 	

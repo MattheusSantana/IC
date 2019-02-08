@@ -1,4 +1,5 @@
 import time
+import random
 from sub import *
 from copy import copy, deepcopy
 from graph import * 
@@ -6,27 +7,7 @@ from graph import *
 
 #search for an instance of the motif in the graph
 def TCG(graph, motif):
-	'''if len(motif.vList) ==1:
-		#If the motif has one vertex only, his color is 1.
-		
-		for v in graph.vList:
-			if v.color == 1:
-				return 1
-		return 0		
 	
-	
-	if len(motif.vList) ==2:
-		v = motif.vList[0]
-		w = motif.vList[1]
-		for vertice in graph.vList:
-			if vertice.color == v.color:
-				for neighbor in vertice.neighbors:
-					if neighbor.color == w.color:
-						#print("The motif occurs in the graph")
-						return 1
-		#print("No occurrences")
-		return 0				
-	'''
 	motif.dfs()
 	for i in range(len(motif.topologicalSort)):
 		v = motif.topologicalSort[i]
@@ -79,6 +60,15 @@ def adjTo(x, w):
 			return 0
 	return 1	
 
+def sumEvalue(graph):
+	total = 0.0
+	for v in graph.vList:
+		total += float(v.evalue) 
+	
+	graph.totalEvalue = total	
+	return total	
+
+
 def ocurrence(self, array, motif):
 	aux = self.map[-1]
 
@@ -121,6 +111,7 @@ def proxSeq(self, l, n):
    	   i += 1
     return 1
 
+
 def subsets(self, l, n):
 	while(self.proxSeq(l,n)== 1):
 		for i in range(1, len(l), 1):
@@ -139,13 +130,13 @@ def printSuccessors(self):
 			print("->", key, ":", vertex.successors.get(key), end=" ")
 		print("}")	
 def setGap(graph, motif):
-	i = 1
-	print("Select the index refering the vertex pair to add the gap!\n For to add more than 1 gap you should write the values from the indexes with space, for example: 1 2 3")
-	for e in motif.eList:
-		print("%d- [%d-%d]"%(i, e.u.id+1, e.v.id+1))
-		i+=1
-	gaps = list(map(int,input().split()))	
-	print("gaps->",gaps)
+	#i = 1
+	#print("Select the index refering the vertex pair to add the gap!\n For to add more than 1 gap you should write the values from the indexes with space, for example: 1 2 3")
+	#for e in motif.eList:
+	#	print("%d- [%d-%d]"%(i, e.u.id+1, e.v.id+1))
+	#	i+=1
+	gaps = list(map(int,"1"))	
+	#print("gaps->",gaps)
 
 
 	for g in gaps:
@@ -162,6 +153,12 @@ def setGap(graph, motif):
 								edge.u = v 
 								edge.v = i
 								graph.eList.append(edge)
+
+#Pré: it is necessary that the color table is initialized. run initializeColorTable()
+def checkAllColors(graph, colors):
+	for c in colors:
+		if len(graph.colorTable[c]) == 0:
+			return False
 
 
 #1 - For each m vertex of the motif in the topological sort.
@@ -234,13 +231,19 @@ def allIsomorphics(graph, motif):
 
 	#step 1
 	if len(motif.topologicalSort) ==1:
-		
+		#print("entro", len(graph.vList))
+		count = 0
 		for v in graph.vList:
-			if v.status == V_ENABLE and v.color == motif.vList[0].color:
+			#print(v.status)
+			if  motif.vList[0].color:
+				count+=1	
 				g = Graph()
 				g.vList.append(v)
 				setG.append(g)
-		#step 3.
+			if count == 800:
+				break	
+		#step 3
+
 		return setG			
 
 	#step 2.
@@ -251,6 +254,7 @@ def allIsomorphics(graph, motif):
 		if v.status == V_ENABLE and v.color == alpha:
 			setA.append(v) #Store only id of vertices with color == alpha.
 			v.status = V_DISABLE	
+			#print("disativo")
 
 	del(motif.topologicalSort[0])
 	#step 2.2
@@ -283,3 +287,25 @@ def allIsomorphics(graph, motif):
 	del(setH[:])
 	del(setA[:])	
 	return setG
+
+def checkDuplicatedVertex(occurrence):
+	labels = []
+	for v in occurrence.vList:
+		labels.append(v.label)
+	labels = set(labels)
+
+	return len(labels) < len(occurrence.vList)	
+
+
+
+def randomizedOcurrences(graph, n):
+	
+	vertices = [] 
+	for i in range(n):
+		index = int(1 + (len(graph.vList)-2) * random.random())
+		vertices.append(graph.vList[index].label)
+
+	vertices.sort()
+	return vertices 
+
+
